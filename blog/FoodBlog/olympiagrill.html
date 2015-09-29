@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Murky Stairwell 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130405
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Arturo Argueta</title>
+<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+		
+			$("#slideshow > div:gt(0)").hide();
+	
+			setInterval(function() { 
+			  $('#slideshow > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshow');
+			},  3000);
+			
+		});
+	</script>
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">Arturo Argueta </a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="/">Homepage</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<!-- end #header -->
+	
+	<div id="page">
+		<div id="content">
+			<div class="post">
+				<h2 class="title"><a href="#">Olympia Grill at Pier 21</a></h2>
+				<p class="meta"><span class="date">August 1, 2013</span><span class="posted">Galveston, Texas</span></p>
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<p>Are you at the Pier 21 and you are new at Galveston? It's my first time visiting this city and I must say that this is a great spot to have lunch! The greek food is great and I must say that you won't regret having lunch at this place, also if you want to do some sightseeing there's a retired oil rig near this restaurant, and also there's a lot of boat tours around the coast. They also have a very cool soap in the restrooms. </p>
+				</div>
+			</div>
+			
+
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+
+		<div id="sidebar">
+			<ul>
+				<li> 
+					<h2>Social Networks</h2>
+					<ul>
+						<li><a href="https://www.facebook.com/olympiagrillpier21">Facebook</a></li>
+						<li><a href="https://twitter.com/olympiapier21">Twitter</a></li>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+		<!-- end #sidebar -->
+
+	</div>
+	<!-- end #page -->
+			<div style="clear: both;">&nbsp;</div> 
+<div id="slideshow" align="center">
+   <div>
+     <img src="olympia/DSCN0872.JPG" width="1000" height="340">
+   </div>
+   <div>
+     <img src="olympia/DSCN0862.JPG" width="1000" height="340">
+   </div>
+   <div>
+     <img src="olympia/DSCN0863.JPG" width="1000" height="340">
+   </div>
+   <div>
+   <div>
+     <img src="olympia/DSCN0864.JPG" width="1000" height="340">
+   </div>
+   <div>
+     <img src="olympia/DSCN0859.JPG" width="1000" height="340">
+   </div>
+</div>
+			<div style="clear: both;">&nbsp;</div>
+
+</div>
+
+
+
+<div id="footer">
+	<p>2013 <b> Arturo Argueta </b>.</p>
+</div> 
+<!-- end #footer -->
+</body>
+</html>
